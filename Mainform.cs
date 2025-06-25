@@ -20,6 +20,8 @@ namespace Hash_DeHash
             tbPassword.Clear();
 
             tbHashedPassword.Text = Program.HashPassword(password);
+
+            lblClipBoard.Text = "";
         }
 
         private void btnDeHash_Click(object sender, EventArgs e)
@@ -28,6 +30,8 @@ namespace Hash_DeHash
 
             Program.VerifyPassword(password, hashedPassword);
             tbPassword.Text = password;
+
+            lblClipBoard.Text = "Copied to clipboard!";
         }
 
         private void Form1_Load(object sender, EventArgs e)

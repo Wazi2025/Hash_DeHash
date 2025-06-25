@@ -39,6 +39,7 @@ namespace Hash_DeHash
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblClipBoard = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,11 +129,20 @@ namespace Hash_DeHash
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click_1);
             // 
+            // lblClipBoard
+            // 
+            this.lblClipBoard.AutoSize = true;
+            this.lblClipBoard.Location = new System.Drawing.Point(32, 278);
+            this.lblClipBoard.Name = "lblClipBoard";
+            this.lblClipBoard.Size = new System.Drawing.Size(0, 13);
+            this.lblClipBoard.TabIndex = 5;
+            // 
             // Mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 389);
+            this.Controls.Add(this.lblClipBoard);
             this.Controls.Add(this.btnDeHash);
             this.Controls.Add(this.btnHash);
             this.Controls.Add(this.label2);
@@ -168,6 +178,7 @@ namespace Hash_DeHash
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
+        private System.Windows.Forms.Label lblClipBoard;
     }
 }
 
