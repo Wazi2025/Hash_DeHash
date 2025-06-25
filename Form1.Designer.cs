@@ -1,4 +1,6 @@
-﻿namespace Hash_DeHash
+﻿using System;
+
+namespace Hash_DeHash
 {
     partial class Mainform
     {
@@ -85,7 +87,7 @@
             this.btnHash.Name = "btnHash";
             this.btnHash.Size = new System.Drawing.Size(75, 23);
             this.btnHash.TabIndex = 1;
-            this.btnHash.Text = "Hash!";
+            this.btnHash.Text = "Hash";
             this.btnHash.UseVisualStyleBackColor = true;
             this.btnHash.Click += new System.EventHandler(this.btnHash_Click);
             // 
@@ -96,7 +98,7 @@
             this.btnDeHash.Name = "btnDeHash";
             this.btnDeHash.Size = new System.Drawing.Size(75, 23);
             this.btnDeHash.TabIndex = 2;
-            this.btnDeHash.Text = "deHash!";
+            this.btnDeHash.Text = "de-Hash";
             this.btnDeHash.UseVisualStyleBackColor = true;
             this.btnDeHash.Click += new System.EventHandler(this.btnDeHash_Click);
             // 
@@ -122,7 +124,7 @@
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click_1);
             // 
@@ -148,6 +150,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void aboutToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            
         }
 
         #endregion
