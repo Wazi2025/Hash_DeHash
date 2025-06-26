@@ -1,3 +1,3 @@
-﻿# Project "Winforms: Hash/de-Hash"
+﻿# Project "Winforms: Hash/Verify"
 
-A simple password hasher/de-hasher using bCrypt
+A simple password hasher/verifier using bCrypt

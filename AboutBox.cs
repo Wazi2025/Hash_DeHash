@@ -99,7 +99,7 @@ namespace Hash_DeHash
 
         private void AboutBox_Load(object sender, EventArgs e)
         {
-            tbDescription.Text = "A simple password hasher/de-hasher using bCrypt.";
+            tbDescription.Text = "A simple password hasher/verifier using bCrypt.";
         }
     }
 }

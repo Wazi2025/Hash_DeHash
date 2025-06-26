@@ -99,7 +99,7 @@ namespace Hash_DeHash
             this.btnDeHash.Name = "btnDeHash";
             this.btnDeHash.Size = new System.Drawing.Size(75, 23);
             this.btnDeHash.TabIndex = 2;
-            this.btnDeHash.Text = "de-Hash";
+            this.btnDeHash.Text = "Verify";
             this.btnDeHash.UseVisualStyleBackColor = true;
             this.btnDeHash.Click += new System.EventHandler(this.btnDeHash_Click);
             // 
@@ -153,7 +153,7 @@ namespace Hash_DeHash
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Mainform";
-            this.Text = "Hash/deHash";
+            this.Text = "Hash/Verify";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
